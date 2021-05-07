@@ -7,7 +7,7 @@ import {
 import MainHeader from '../MainHeader';
 import Aside from '../Aside';
 import Content from '../Content';
-import { Children } from 'react';
+//import { Children } from 'react';
 
 const Layout : React.FC = ({children}) => {
     return (
