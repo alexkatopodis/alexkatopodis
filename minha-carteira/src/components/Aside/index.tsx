@@ -2,7 +2,8 @@ import React from 'react';
 import {MdDashboard,
     MdArrowDownward,
     MdArrowUpward,
-    MdExitToApp
+    MdExitToApp,
+    MdPlace
 } from 'react-icons/md';
 import logoImg from '../../assets/logo.svg';
 
@@ -43,6 +44,10 @@ const Aside: React.FC = () => {
                 <MenuItemLink href = '#'>
                     <MdExitToApp />
                     Sair
+                </MenuItemLink>
+                <MenuItemLink href = '#'>
+                    <MdPlace />
+                    Cep
                 </MenuItemLink>
             </MenuContainer>
         </Grid>
